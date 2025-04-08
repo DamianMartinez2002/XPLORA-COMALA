@@ -122,7 +122,7 @@ $popins:'Poppins', sans-serif;;
 
 # 💻 Screenshot
 
-![Screenshot](public/images/screenshot.png)
+![Screenshot](public/images/como.png)
 
 <br/>
 
