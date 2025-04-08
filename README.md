@@ -123,7 +123,6 @@ $popins:'Poppins', sans-serif;;
 
 # 💻 Screenshot
 
-![Screenshot](public/images/como.png)
 
 <br/>
 
