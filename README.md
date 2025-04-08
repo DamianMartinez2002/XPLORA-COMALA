@@ -1,4 +1,5 @@
-<img src="public/images/logo/como.png" width="100%">
+
+
 
 </br>
 
