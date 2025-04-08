@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPLORA COMALA</title>
+    <link rel="shortcut icon" href="public/images/logo/com.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- css  -->
+    <link rel="stylesheet" href="public/sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="loader-container">
+          <div class="character">🤖</div>
+          <div class="character">👽</div>
+          <div class="character">👾</div>
+          <div class="character">🤯</div>
+          <div class="character">🚀</div>
+        </div>
+        <div class=""></div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+    <!-- header  -->
+    <header class="primary-header">
+        <div class="left-part">
+            <img src="public/images/logo/como.png" alt="">
+            <div class="logo">
+                <h1>X<span>PLORA</span>COMALA</h1>
+            </div>
+        </div>
+        <div class="right-part">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#about">Hogar</a></li>
+                    <li><a href="#tour">Tours</a></li>
+                    <li><a href="#media">Fotos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <div class="btn-group">
+                    <a href="https://wa.me/523121351039?text=¡Hola!%20Estoy%20interesado%20en%20reservar%20un%20recorrido%20con%20Xplora%20Comala." 
+                        class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Reserva Aqui
+                    </a>
+                </div>
+                
+                
+            </div>
+            <div class="ham-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- main  -->
+    <main>
+
+        <!-- banner  -->
+
+        <section class="banner" id="banner">
+            <div class="banner-background">
+                <img src="public/images/logo/como.png" alt="Comala Pueblo Mágico">
+            </div>
+            <div class="banner-text">
+                <h1>Vive la experiencia</h1>
+                <P>En uno de los pueblos magicos del mundo</P>
+                <a href="#media" class="btn btn-get"><span>Explora</span></a>
+            </div>
+            <div class="overlay2"></div>
+        </section>
+        <section id="quienes-somos" class="quienes-somos">
+            <div class="container">
+                <h2>Quiénes somos</h2>
+                <p>En <strong>Xplora Comala</strong>, es una cooperativa de empresarios comaltecos dedicada a promover el turismo sostenible en la región de Comala, Colima. </p>
+                <p>
+                    La cooperativa se compromete a cuidar el entorno, priorizando prácticas que minimicen la contaminación y fomenten el respeto por la naturaleza. A través de sus actividades, buscan no solo mostrar los destinos turísticos más conocidos, sino también revelar joyas ocultas que reflejan la esencia de la región.
+                    
+                    Xplora Comala también se enfoca en el ecoturismo, el cual promueve la conservación del medio ambiente, así como el turismo gastronómico, cultural y tradicional. Los visitantes pueden experimentar la cocina local, las costumbres y tradiciones de la comunidad, enriqueciendo así su comprensión y apreciación del patrimonio comalteco.
+                    
+                    En definitiva, Xplora Comala es un puente entre los turistas y la autenticidad de Comala, garantizando una experiencia enriquecedora y responsable que beneficia tanto a los visitantes como a la comunidad.
+                    </p>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="icon-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Ubicación única</h3>
+                            <p>Comala es un lugar lleno de historia y belleza natural. Te llevamos a los sitios más emblemáticos y a los rincones secretos que solo los locales conocen.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="icon-box">
+                            <i class="fas fa-utensils"></i>
+                            <h3>Gastronomía Local</h3>
+                            <p>Descubre la deliciosa cocina tradicional de Comala. Desde sus famosos portales hasta sus bebidas artesanales, la gastronomía local es una de las joyas que no puedes dejar de probar.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="icon-box">
+                            <i class="fas fa-tree"></i>
+                            <h3>Aventura y Naturaleza</h3>
+                            <p>Explora la belleza natural de Comala, sus senderos, montañas y ríos. Ya sea para una caminata tranquila o una aventura más intensa, la naturaleza te espera.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <p>Te invitamos a ser parte de esta maravillosa experiencia y descubrir por qué Comala es uno de los destinos más sorprendentes de México. ¡Ven y vive la magia de este Pueblo Mágico con nosotros!</p>
+        
+                <button id="toggle-btn" class="btn btn-about">Conoce más</button>
+            </div>
+        </section>
+<!-- Sección Objetivos Generales (Oculta al inicio) -->
+<section id="objetivos-generales" class="objetivos-generales">
+    <div class="container">
+        <h2>Objetivos Generales</h2>
+        <ul>
+            <li><i class="fas fa-check-circle"></i> <p><strong>Promover el Ecoturismo Responsable</strong>:Fomentar prácticas de turismo sostenible que protejan el medio ambiente y preserven la biodiversidad de Comala y sus comunidades a través de actividades al aire libre, como excursiones en ATV, garantizando que cada experiencia respete y valore la naturaleza. </p></li>
+            <li><i class="fas fa-check-circle"></i> <p><strong>Difundir la Cultura y Tradiciones Locales</strong>: Impulsar la valorización de la herencia cultural comalteca mediante la inclusión de experiencias gastronómicas, festividades y tradiciones locales en su oferta turística, educando a los visitantes sobre la historia y el patrimonio de la región. </p></li>
+            <li><i class="fas fa-check-circle"></i> <p><strong>Fortalecer la Economía Local</strong>: Generar oportunidades económicas para los habitantes de Comala mediante la colaboración con emprendedores locales, artesanos y proveedores de servicios, asegurando que los beneficios del turismo se traduzcan en el desarrollo socioeconómico de la comunidad. </p></li>
+        </ul>
+    </div>
+</section>
+        <!-- Agrega aquí el enlace de FontAwesome para los íconos -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        
+
+
+
+        <!-- explore  -->
+        <section class="explore" id="explore">
+            <div class="main-text">
+                <h2>Xplora</h2>
+                <h1><span>Pueblo</span>Magico</h1>
+                <p>Este lugar sorprende por su fabuloso ambiente y naturaleza.</p>
+            </div>
+            <div class="main-container">
+                <div class="image-box image-1">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/mhEaDfvbJzw?autoplay=1&mute=1&loop=1&playlist=IC7RFsmmZYY" 
+                            frameborder="0" 
+                            allow="autoplay; encrypted-media" 
+                            allowfullscreen>
+                            
+                        </iframe>
+                    </div>
+                    <div class="overlay"></div>
+                    <div class="image-box-text">
+                        <h2>Comala Centro</h2>
+                        <p>Comala</p>   
+                    </div>
+                </div>
+                
+                
+                <div class="image-box image-1">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/mhEaDfvbJzw?autoplay=1&mute=1&loop=1&playlist=mhEaDfvbJzw" 
+                            frameborder="0" 
+                            allow="autoplay; encrypted-media" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="overlay"></div>
+                    <div class="image-box-text">
+                        <h2>Volcan</h2>
+                        <p>Comala</p>
+                    </div>
+                </div>
+
+                  <div class="image-box image-1">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/mhEaDfvbJzw?autoplay=1&mute=1&loop=1&playlist=mhEaDfvbJzw" 
+                            frameborder="0" 
+                            allow="autoplay; encrypted-media" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="overlay"></div>
+                    <div class="image-box-text">
+                        <h2>Cofradia</h2>
+                        <p>Comala</p>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- about  -->
+        <section class="about" id="about">
+            <div class="main-text">
+                <h2>About</h2>
+                <h1>Guia<span>|</span>Turistica</h1>
+                <p>Capacitacion para saber como usar las cuatrimotos y metodos de seguridad</p>
+            </div>
+            <div class="main-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/Wfh0FYR0z6I?autoplay=1&mute=1&loop=1&playlist=Wfh0FYR0z6I" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </section>
+
+        <!-- tour  -->
+                 <section class="tour" id="tour">
+            <div class="main-text">
+                <h2>2025</h2>
+                <h1>Tours</h1>
+            </div>
+            <div class="main-container">
+                <!-- // card 1 -->
+                <div class="tour-cards">
+                    <div class="image-box">
+                        <img src="https://mexicorutamagica.mx/wp-content/uploads/2022/05/Comala-Pueblo-Magico-1-768x480.jpg"
+                            alt="Blue Lagoon">
+                        <div class="overlay"></div>
+                        <div class="image-box-text">
+                            <h2>COMALA</h2>
+                            <p>CENTRO</p>
+                        </div>
+
+                    </div>
+                    <div class="tour-cards-text">
+                        <h1>EL BAMBUSAL  </h1>
+                        <p>RUTA PRINCIPIANTE INTERMEDIO DE APROXIMADAMENTE 22 KM. CON UNA DURACION Y ESTANCIA DE 3HRS</p>
+                        <a href="https://visitacolima.mx/images/2023/09/18/comalamapa1web.jpg" class="btn-map">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>Ver mapa de ruta</span>
+                        </a>
+                        
+                        <div class="price">
+                            <h2>Costo Individual $1600</h2>
+                        </div>
+                        <div class="price">
+                            <h2>En TANDEM $2000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------ -->
+                 <!-- // card 2-->
+                <div class="tour-cards">
+                    <div class="image-box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Volcanes_de_Colima_desde_Cofrad%C3%ADa_de_Suchitl%C3%A1n.jpg/375px-Volcanes_de_Colima_desde_Cofrad%C3%ADa_de_Suchitl%C3%A1n.jpg"
+                            alt="Blue Lagoon">
+                        <div class="overlay"></div>
+                        <div class="image-box-text">
+                            <h2>Cofradia</h2>
+                            <p>Centro</p>
+                        </div>
+
+                    </div>
+                    <div class="tour-cards-text">
+                        <h1>EL VALLE DE LOS OVNIS </h1>
+                        <p>RUTA PRINCIPIANTE INTERMEDIO DE 14 KM. APROXIMADAMENTE, CON UNA DURACION Y ESTANCIA DE 3 HRS</p>
+                        <a href="https://localizanet.com/soporte/uploads/323_ruta_cafe.png" class="btn-map">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>Ver mapa de ruta</span>
+                        </a>
+                        
+                        <div class="price">
+                            <h2>Costo Individual $1600</h2>
+                        </div>
+                        <div class="price">
+                            <h2>En TANDEM $2000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------ -->
+                <!-- card 3 -->
+                <div class="tour-cards">
+                    <div class="image-box">
+                        <img src="https://comalapueblomagico.mx/wp-content/uploads/sites/76/2019/10/enlace-4.jpg"
+                        alt="Nogueras">
+                        <div class="overlay"></div>
+                        <div class="image-box-text">
+                            <h2>Nogueras</h2>
+                            <p>Comala</p>
+                        </div>
+
+                    </div>
+                    <div class="tour-cards-text">
+                        <h1>DESCUBRE NOGUERAS</h1>
+                        <p>RUTA PRINCIPIANTE/INTERMEDIO DE 10 KM. CON UNA DURACION Y ESTANCIA DE 2 HRS. 30 MIN</p>
+                        <a href="https://reydocbici.com/blog/wp-content/uploads/2013/04/02cob.jpg" class="btn-map">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>Ver mapa de ruta</span>
+                        </a>
+                        
+                        <div class="price">
+                            <h2>Costo Individual $1200</h2>
+                        </div>
+                        <div class="price">
+                            <h2>En TANDEM $1500</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------  -->
+
+                <!-- cards 4  -->
+                <div class="tour-cards">
+                    <div class="image-box">
+                        <img src="https://comalapueblomagico.mx/wp-content/uploads/sites/76/2019/10/portada-3.jpg"
+                            alt="West Iceland">  
+                        <div class="overlay"></div>
+                        <div class="image-box-text">
+                            <h2>Remate</h2>
+                            <p>Comala</p>
+                        </div>
+
+                    </div>
+                    <div class="tour-cards-text">
+                        <h1>THE BOX… Y DONDE SE HIZO LA LUZ</h1>
+                        <p>RUTA PRINCIPIANTE/INTERMEDIO DE 24 KM. APROXIMADAMENTE, CON UNA DURACION Y ESTANCIA DE 3 HRS. 30 MINUTOS</p>
+                        <a href="https://img1.wsimg.com/isteam/ip/1ccabf37-c5f9-4a11-99bd-e3e4ba19374c/ruta-del-cafe-Pinterest.jpg" class="btn-map">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>Ver mapa de ruta</span>
+                        </a>
+                        
+                        <div class="price">
+                            <h2>Costo Individual $1800</h2>
+                        </div>
+                        <div class="price">
+                            <h2>En TANDEM $2200</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------ -->
+                     <!-- cards 5  -->
+                <div class="tour-cards">
+                    <div class="image-box">
+                        <img src="https://elheraldoslp.com.mx/new/wp-content/uploads/2024/01/Laguna-de-Carrizalillo-en-Colima-1.jpg"
+                            alt="Stakkholtsgja canyon ">
+                        <div class="overlay"></div>
+                        <div class="image-box-text">
+                            <h2>Carrizalillo</h2>
+                            <p>Comala</p>
+                        </div>
+
+                    </div>
+                    <div class="tour-cards-text">
+                        <h1>LA RUTA DE LA LAGUNA</h1>
+                        <p>RUTA PRINCIPIANTE INTERMEDIO DE 26 KM. APROXIMADAMENTE, CON UNA DURACION Y ESTANCIA DE 3 HRS. 30 MINUTOS</p>
+                        <a href="https://tu-url-del-mapa.com" class="btn-map">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>Ver mapa de ruta</span>
+                        </a>
+                        
+                        <div class="price">
+                            <h2>Costo Individual $1800</h2>
+                        </div>
+                        <div class="price">
+                            <h2>En TANDEM $2200</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------ -->
+                     <!-- cards 6  -->
+                <div class="tour-cards">
+                    <div class="image-box">
+                        <img src="https://pbs.twimg.com/media/EBKhbbwUcAA3WRN?format=jpg&name=900x900"
+                            alt="Stakkholtsgja canyon ">
+                        <div class="overlay"></div>
+                        <div class="image-box-text">
+                            <h2>Lagunitas</h2>
+                            <p>Comala</p>
+                        </div>
+
+                    </div>
+                    <div class="tour-cards-text">
+                        <h1>LA RUTA DE LOS CRISTEROS</h1>
+                        <p>RUTA INTERMEDIO/AVANZADO DE 50 KM. APROXIMADAMENTE CON UNA DURACION Y ESTANCIA DE 5 HRS. 30 MINUTOS</p>
+                        <a href="https://tu-url-del-mapa.com" class="btn-map">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>Ver mapa de ruta</span>
+                        </a>
+                        
+                        <div class="price">
+                            <h2>Costo Individual $2500</h2>
+                        </div>
+                        <div class="price">
+                            <h2>En TANDEM $3200</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------ -->
+            </div>
+        </section>
+
+        <section class="sale" id="sale">
+            <div class="overlay1">
+
+            </div>
+            <div class="main-container">
+                <div class="heading">
+                    <h1>DIFRUTA DE LA AVENTURA</h1>
+                    
+                </div>
+                
+        </section>
+
+        <!-- ----- -->
+        <!-- media  -->
+
+        <section class="media" id="media">
+            <div class="main-text">
+                <h2>Fotos</h2>
+                <h1>Explora Comala en imágenes</h1>
+            </div>
+            <div class="main-container">
+                <div class="image image-1">
+                    <img src="public/images/Cuatrimoto Xplora comala.jpeg" alt="MOTO">
+                    <h3>Aparatos</h3>
+                </div>
+                <div class="image image-2">
+                    <img src="public/images/piel xplora comala.jpeg" alt="MOTO">
+                    <h3>Piel</h3>
+                </div>
+                <div class="image image-3">
+                    <img src="img/foto3.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+                <div class="image image-4">
+                    <img src="img/foto4.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+                <div class="image image-5">
+                    <img src="img/foto5.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+                <div class="image image-6">
+                    <img src="img/foto6.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+                <div class="image image-7">
+                    <img src="img/foto7.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+                <div class="image image-8">
+                    <img src="public/images/logo/com.png" alt="LOGO">
+                    <h3>LOGO</h3>
+                </div>
+                <div class="image image-9">
+                    <img src="img/foto9.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+                <div class="image image-10">
+                    <img src="img/foto10.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+                <div class="image image-11">
+                    <img src="img/foto11.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+                <div class="image image-12">
+                    <img src="img/foto12.jpg" alt="MOTO">
+                    <h3>MOTO</h3>
+                </div>
+            </div>
+        </section>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fill-opacity="1" d="M0,288L6.2,282.7C12.3,277,25,267,37,256C49.2,245,62,235,74,229.3C86.2,224,98,224,111,213.3C123.1,203,135,181,148,160C160,139,172,117,185,112C196.9,107,209,117,222,106.7C233.8,96,246,64,258,80C270.8,96,283,160,295,202.7C307.7,245,320,267,332,261.3C344.6,256,357,224,369,176C381.5,128,394,64,406,74.7C418.5,85,431,171,443,213.3C455.4,256,468,256,480,240C492.3,224,505,192,517,192C529.2,192,542,224,554,208C566.2,192,578,128,591,112C603.1,96,615,128,628,144C640,160,652,160,665,176C676.9,192,689,224,702,202.7C713.8,181,726,107,738,80C750.8,53,763,75,775,74.7C787.7,75,800,53,812,85.3C824.6,117,837,203,849,202.7C861.5,203,874,117,886,80C898.5,43,911,53,923,74.7C935.4,96,948,128,960,154.7C972.3,181,985,203,997,186.7C1009.2,171,1022,117,1034,128C1046.2,139,1058,213,1071,240C1083.1,267,1095,245,1108,202.7C1120,160,1132,96,1145,64C1156.9,32,1169,32,1182,42.7C1193.8,53,1206,75,1218,80C1230.8,85,1243,75,1255,101.3C1267.7,128,1280,192,1292,197.3C1304.6,203,1317,149,1329,160C1341.5,171,1354,245,1366,256C1378.5,267,1391,213,1403,186.7C1415.4,160,1428,160,1434,160L1440,160L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"></path></svg>
+
+        <!-- ----- -->
+
+        <!-- contact  -->
+        <section class="contact" id="contact">
+            <div class="main-text">
+                <h2>Contacto</h2>
+                <h1>Ponte en contacto</h1>
+            </div>
+            <div class="main-container">
+                <form action="#">
+                    <div class="name">
+                        <label for="name">Nombre</label>
+                        <input type="text" placeholder="Introduce tu nombre " id="name" name="name">
+                    </div>
+                    <div class="phone">
+                        <label for="phone">Email o telefono</label>
+                        <input type="text" name="phone" id="phone" placeholder="Ingrese su número o teléfono">
+                    </div>
+                    <div class="message">
+                        <label for="message">Tu Mensaje</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Cuéntenos sobre sus intereses, pasión, necesidades y cualquier otro detalle relevante para su viaje."></textarea>
+                    </div>
+                    <button class="btn-send">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- ----- -->
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-image">
+            <div class="overlay1"></div>
+            <div class="overlay2"></div>
+
+        </div>
+        <div class="main-container">
+            <div class="heading-foo">
+                <img src="public/images/logo/comala.png" alt="">
+                <h1>Explora Comala</h1>
+                <p>Disfruta la magia de comala pueblo magico </p>
+            </div>
+            <div class="social-media">
+                <h1>Conecta con nosotros</h1>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="main">
+                <h1>Enlaces</h1>
+                <ul>
+                    <li><a href="#explore">Explora</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tour">Tours</a></li>
+                    <li><a href="#media">Fotos</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h1>Contacto</h1>
+                <div class="contact-info-text">
+                    <p>(312)103 2345</p>
+                    <p>Exploracomala.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="credit">
+            <h3>🖥️ Design and Developed By 🧑<a href="https://github.com/DamianMartinez2002">Damian Aguirre Martinez</a></h3>
+        </div>
+    </footer>
+    <!-- ----- -->
+
+    <script src="public/js/main.js"></script>
+    <!-- JavaScript para alternar la visibilidad -->
+<script>
+    document.getElementById("toggle-btn").addEventListener("click", function() {
+        var objetivos = document.getElementById("objetivos-generales");
+        if (objetivos.style.display === "none" || objetivos.style.display === "") {
+            objetivos.style.display = "block";
+            this.innerText = "Ver menos";
+        } else {
+            objetivos.style.display = "none";
+            this.innerText = "Conoce más";
+        }
+    });
+    window.addEventListener('load', function() {
+        const preloader = document.getElementById('preloader');
+        setTimeout(function() {
+          preloader.style.opacity = '0';
+          setTimeout(function() {
+            preloader.style.display = 'none';
+          }, 1000);
+        }, 3000); // Duración total de la animación
+      });
+</script>
+</body>
+
+</html>
