@@ -1,4 +1,4 @@
-<img src="public/images/banner.svg" width="100%">
+<img src="public/images/logo/como.png" width="100%">
 
 </br>
 
